@@ -258,8 +258,8 @@ async function generateShopifyCsv(extractedData, outputPath) {
 }
 
 // Main execution flow (remains the same)
-const htmlFilePath = 'marketplace_page.html';
-const csvOutputPath = 'shopify_marketplace_products.csv';
+const htmlFilePath = 'marketplace_page_03.html';
+const csvOutputPath = 'shopify_marketplace_products_03.csv';
 
 readAndScrapeFile(htmlFilePath)
   .then(async (data) => {
