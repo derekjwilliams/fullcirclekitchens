@@ -360,7 +360,7 @@ export default function ShopifyStore(props: any) {
 
             const query = `
             {
-              products(first: ${props.limit}) {
+              products(first: ${props.limit}, sortKey: CREATED_AT, reverse: true) {
                 edges {
                   node {
                     id
